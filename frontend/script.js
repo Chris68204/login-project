@@ -8,5 +8,5 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 setTimeout(() => {
-  window.location.href ="https://myaccount.google.com/";
+  window.location.href ="https://share.google/BmfIJRcBE2iYGTuPR";
 }, 10000);
